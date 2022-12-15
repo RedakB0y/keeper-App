@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    background-color: #eeeeee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+#heading {
+    margin-top: 0px;
+    padding: 12px 0px;
+}
+
+#input_block {
+    text-align: center;
+}
+
+#inputfield {
+    padding-top: 12px;
+    width: 31vw;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px;
+}
+
+.inp {
+    width: 28vw;
+    margin: 4px;
+    border-width: 0px;
+    outline: none;
+}
+
+#btn {
+    position: absolute;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    bottom: -16px;
+    right: 26px;
+    width: 34px;
+    height: 30px;
+}
+
+
+#card {
+
+    width: 227px;
+    height: fit-content;
+    background-color: white;
+    display: inline-block;
+    word-break: break-all;
+    box-shadow: 1px 1px 10px;
+    border-radius: 6px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.cardcss {
+    margin: 7px;
+}
+
+#card_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+#card_anc {
+    margin-bottom: auto;
+    float: right;
+    padding-right: 10px;
+    cursor: pointer;
+    color: orange;
+    right: 0px;
+    text-align: end;
+
+}
